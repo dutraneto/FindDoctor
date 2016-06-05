@@ -1,1 +1,10 @@
-FindDoctor
+FindDoctor - interface administrativa
+Projeto do curso de Gestão de Projetos ADS-V IFPI-PI 2016.1
+------------
+
+Django Version: 1.9.5
+Python Version: 3
+
+------------
+
+Utilize seu ambiente virtual para rodar o projeto ou esteja seguro de usar essas versões do Python/Django
