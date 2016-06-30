@@ -15,13 +15,7 @@ class PessoaModelAdmin(admin.ModelAdmin):
 		model = Pessoa
 
 
-# class EspecialidadeModelAdmin(admin.ModelAdmin):
-#     list_display = ["especialidade"]
-#     # list_filter = ["especialidade"]
-#     search_fields = ["especialidade"]
-#
-#     class Meta:
-#         model = Especialidade
+
 
 # admin.site.register(Especialidade, EspecialidadeModelAdmin)
 admin.site.register(Pessoa, PessoaModelAdmin)

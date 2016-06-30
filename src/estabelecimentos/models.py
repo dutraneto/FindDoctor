@@ -4,7 +4,7 @@ from django.db import models
 
 class Estabelecimento(models.Model):
 
-    # profissional = models.ManyToManyField(Profissional)
+
     estabelecimento = models.CharField(verbose_name="Clínica / Hospital", max_length=100)
     logradouro = models.CharField(verbose_name="Rua", max_length=100)
     numero = models.CharField(verbose_name="Número", max_length=10)
