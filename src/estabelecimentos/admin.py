@@ -1,17 +1,7 @@
 from django.contrib import admin
+from estabelecimentos.models import Local, Estado, Cidade
+# Register your models here.
 
-from .models import Estabelecimento
-
-
-class EstabelecimentoModelAdmin(admin.ModelAdmin):
-	list_display = ["estabelecimento", "ddd", "telefone_1", "telefone_2"]
-	# list_display_links = ["updated"]
-	# list_editable = ["title"]
-	list_filter = ["estabelecimento"]
-
-	search_fields = ["estabelecimento"]
-
-	class Meta:
-		model = Estabelecimento
-
-admin.site.register(Estabelecimento, EstabelecimentoModelAdmin)
+admin.site.register(Estado)
+admin.site.register(Cidade)
+admin.site.register(Local)

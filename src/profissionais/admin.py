@@ -1,19 +1,19 @@
 from django.contrib import admin
 
-from especialidades.models import (Especialidade)
+# from .models import (Especialidade)
 from .models import (Profissional)
-from pessoas.models import Pessoa
 # from pessoas.models import (Pessoa)
 # from .models import (Usuario)
-from estabelecimentos.models import (Estabelecimento)
 
 class ProfissionalModelAdmin(admin.ModelAdmin):
-	list_display = ["profissao","pessoa", "crm"]
+	list_display = ["nome", "sobrenome", "codConselho"]
 	# list_display_links = ["updated"]
 	# list_editable = ["title"]
-	list_filter = ["pessoa", "profissao", "especialidade", "estabelecimento"]
+	list_filter = ["nome", "sobrenome", "especialidade", "area" ]
 
-	search_fields = ["pessoa", "profissao", "especialidade", "crm"]
+	search_fields = ["nome", "sobrenome", "especialidade", "area",  "codConselho"]
+
+	filter_horizontal = ["especialidade", "local"]
 
 	class Meta:
 		model = Profissional

@@ -1,18 +1,17 @@
 from django.db import models
+from areas.models import Area
 
 
 
 class Especialidade(models.Model):
 
-    especialidade = models.CharField(verbose_name='Especialidade', max_length=80)
-    #nome_profissional = models.ManyToManyField(Profissional, related_name='Profissional')
+    nomeEspecialidade = models.CharField(verbose_name='Especialidade', max_length=80)
+    area = models.ForeignKey(Area, on_delete=models.CASCADE)
 
-
-    # created_at = models.DateTimeField('Criado em', auto_now_add=True)
-    # updated_at = models.DateTimeField('Atualizado em', auto_now=True)
+    
 
     def __str__(self):
-        return self.especialidade
+        return self.nomeEspecialidade
 
     class Meta:
-        ordering = ['especialidade']
+        ordering = ['nomeEspecialidade']
