@@ -20,6 +20,7 @@ class Cidade(models.Model):
 
 class Local(models.Model):
 	nomeLocal = models.CharField(verbose_name='Nome', max_length=150)
+	cnpj = models.BigIntegerField(verbose_name="CNPJ", blank=True, null=True)
 	logradouro = models.CharField(verbose_name='Logradouro', max_length=150)
 	numero = models.CharField(verbose_name='Numero', max_length=10)
 	bairro = models.CharField(verbose_name='Bairro', max_length=80)
