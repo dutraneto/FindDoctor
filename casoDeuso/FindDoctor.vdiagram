@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<properties>
+	<Controls>
+		<Table>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="11"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table"/>
+				<position value="896;544"/>
+				<size value="240;140"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table>
+		<Table1>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="10"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table1"/>
+				<position value="656;336"/>
+				<size value="224;140"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table1>
+		<Table10>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="1"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table10"/>
+				<position value="80;544"/>
+				<size value="224;86"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table10>
+		<Table2>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="9"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table2"/>
+				<position value="352;208"/>
+				<size value="256;104"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table2>
+		<Table3>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="8"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table3"/>
+				<position value="80;208"/>
+				<size value="208;194"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table3>
+		<Table4>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="7"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table4"/>
+				<position value="352;432"/>
+				<size value="240;104"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table4>
+		<Table5>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="6"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table5"/>
+				<position value="352;592"/>
+				<size value="256;104"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table5>
+		<Table6>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="5"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table6"/>
+				<position value="416;336"/>
+				<size value="128;68"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table6>
+		<Table7>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="4"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table7"/>
+				<position value="896;208"/>
+				<size value="192;104"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table7>
+		<Table8>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="3"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table8"/>
+				<position value="1120;352"/>
+				<size value="224;86"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table8>
+		<Table9>
+			<Parent value="#TOP"/>
+			<Properties>
+				<^checks value="0"/>
+				<^group value="-1"/>
+				<^height value="-1"/>
+				<^indexes value="0"/>
+				<^level value="2"/>
+				<^links value="0"/>
+				<^lock value="0"/>
+				<^methods value="0"/>
+				<^minimized value="0"/>
+				<^properties value="0"/>
+				<^triggers value="0"/>
+				<^uniques value="0"/>
+				<back_color value="B4D64700"/>
+				<name value="Table9"/>
+				<position value="80;416"/>
+				<size value="224;104"/>
+			</Properties>
+			<Type value="Table"/>
+		</Table9>
+		<finddoctor>
+			<Properties>
+				<^lock value="0"/>
+				<back_color value="FFFFFF"/>
+				<gamma value="0"/>
+				<name value="finddoctor"/>
+				<size value="2048;2048"/>
+				<style value="4"/>
+				<style_links value="0"/>
+				<units value="5"/>
+			</Properties>
+			<Type value="Diagram"/>
+		</finddoctor>
+	</Controls>
+	<Editors>
+		<db>
+			<e0>
+				<data value='&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;properties&gt;
+	&lt;Page value="2"/&gt;
+	&lt;SelectionCheck value="-1"/&gt;
+	&lt;SelectionConsraintTab value="0"/&gt;
+	&lt;SelectionField value="-1"/&gt;
+	&lt;SelectionIndex value="-1"/&gt;
+	&lt;SelectionMethod value="-1"/&gt;
+	&lt;SelectionProperty value="-1"/&gt;
+	&lt;SelectionTrigger value="-1"/&gt;
+	&lt;SelectionTriggerTab value="0"/&gt;
+	&lt;SelectionUnique value="-1"/&gt;
+&lt;/properties&gt;
+
+'/>
+				<name value="profissionais_profissional_local"/>
+				<type value="34"/>
+			</e0>
+		</db>
+	</Editors>
+	<GUI>
+		<FullToolbarLeft value="1"/>
+		<FullToolbarRight value="1"/>
+		<PageEditor value="0"/>
+		<PageEditorH value="0"/>
+		<PageToolbarLeft value="0"/>
+		<PageToolbarRB value="0"/>
+		<PageToolbarRight value="0"/>
+		<ScrollX value="259"/>
+		<ScrollY value="244"/>
+		<Selection value="ZmluZGRvY3Rvcg=="/>
+		<ShowAll value="1"/>
+		<ShowChanges value="1"/>
+		<ShowGL value="1"/>
+		<ShowGrid value="1"/>
+		<UseGrid value="1"/>
+	</GUI>
+	<Model>
+		<db>
+			<Links>
+				<o0>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="propagandas_propaganda"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="profissional_id"/>
+						<Name value="propagandas_propaganda_profissionais_profissional_NO ACTION_NO ACTION_profissional_id_pessoa_ptr_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="profissionais_profissional"/>
+						<Primary_Key value="pessoa_ptr_id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="propagandas_propaganda_profissionais_profissional_NO ACTION_NO ACTION_profissional_id_pessoa_ptr_id_0"/>
+				</o0>
+				<o1>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="profissionais_profissional_local"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="profissional_id"/>
+						<Name value="profissionais_profissional_local_profissionais_profissional_NO ACTION_NO ACTION_profissional_id_pessoa_ptr_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="profissionais_profissional"/>
+						<Primary_Key value="pessoa_ptr_id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="profissionais_profissional_local_profissionais_profissional_NO ACTION_NO ACTION_profissional_id_pessoa_ptr_id_0"/>
+				</o1>
+				<o10>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="estabelecimentos_cidade"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="estado_id"/>
+						<Name value="estabelecimentos_cidade_estabelecimentos_estado_NO ACTION_NO ACTION_estado_id_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="estabelecimentos_estado"/>
+						<Primary_Key value="id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="estabelecimentos_cidade_estabelecimentos_estado_NO ACTION_NO ACTION_estado_id_id_0"/>
+				</o10>
+				<o2>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="profissionais_profissional_local"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="local_id"/>
+						<Name value="profissionais_profissional_local_estabelecimentos_local_NO ACTION_NO ACTION_local_id_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="estabelecimentos_local"/>
+						<Primary_Key value="id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="profissionais_profissional_local_estabelecimentos_local_NO ACTION_NO ACTION_local_id_id_0"/>
+				</o2>
+				<o3>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="profissionais_profissional_especialidade"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="profissional_id"/>
+						<Name value="profissionais_profissional_especialidade_profissionais_profissional_NO ACTION_NO ACTION_profissional_id_pessoa_ptr_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="profissionais_profissional"/>
+						<Primary_Key value="pessoa_ptr_id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="profissionais_profissional_especialidade_profissionais_profissional_NO ACTION_NO ACTION_profissional_id_pessoa_ptr_id_0"/>
+				</o3>
+				<o4>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="profissionais_profissional_especialidade"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="especialidade_id"/>
+						<Name value="profissionais_profissional_especialidade_especialidades_especialidade_NO ACTION_NO ACTION_especialidade_id_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="especialidades_especialidade"/>
+						<Primary_Key value="id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="profissionais_profissional_especialidade_especialidades_especialidade_NO ACTION_NO ACTION_especialidade_id_id_0"/>
+				</o4>
+				<o5>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="especialidades_especialidade"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="area_id"/>
+						<Name value="especialidades_especialidade_areas_area_NO ACTION_NO ACTION_area_id_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="areas_area"/>
+						<Primary_Key value="id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="especialidades_especialidade_areas_area_NO ACTION_NO ACTION_area_id_id_0"/>
+				</o5>
+				<o6>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="profissionais_profissional"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="area_id"/>
+						<Name value="profissionais_profissional_areas_area_NO ACTION_NO ACTION_area_id_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="areas_area"/>
+						<Primary_Key value="id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="profissionais_profissional_areas_area_NO ACTION_NO ACTION_area_id_id_0"/>
+				</o6>
+				<o7>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="profissionais_profissional"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="pessoa_ptr_id"/>
+						<Name value="profissionais_profissional_pessoas_pessoa_NO ACTION_NO ACTION_pessoa_ptr_id_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="pessoas_pessoa"/>
+						<Primary_Key value="id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="profissionais_profissional_pessoas_pessoa_NO ACTION_NO ACTION_pessoa_ptr_id_id_0"/>
+				</o7>
+				<o8>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="usuarios_usuario"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="pessoa_ptr_id"/>
+						<Name value="usuarios_usuario_pessoas_pessoa_NO ACTION_NO ACTION_pessoa_ptr_id_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="pessoas_pessoa"/>
+						<Primary_Key value="id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="usuarios_usuario_pessoas_pessoa_NO ACTION_NO ACTION_pessoa_ptr_id_id_0"/>
+				</o8>
+				<o9>
+					<Changes value=""/>
+					<Properties>
+						<Cardinality value="ONE to MANY"/>
+						<Child_Table value="estabelecimentos_local"/>
+						<Comment value=""/>
+						<Deferred value="0"/>
+						<Foreign_Key value="cidade_id"/>
+						<Name value="estabelecimentos_local_estabelecimentos_cidade_NO ACTION_NO ACTION_cidade_id_id_0"/>
+						<On_Delete value="No Action"/>
+						<On_Update value="No Action"/>
+						<Parent_Table value="estabelecimentos_cidade"/>
+						<Primary_Key value="id"/>
+					</Properties>
+					<control value=""/>
+					<delete value="0"/>
+					<name value="estabelecimentos_local_estabelecimentos_cidade_NO ACTION_NO ACTION_cidade_id_id_0"/>
+				</o9>
+			</Links>
+			<Tables>
+				<o0>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="1"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Name value="ordem"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="ordem"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="3"/>
+								<Indexed value="0"/>
+								<Name value="ativa"/>
+								<Nullable value="0"/>
+								<Type value="Numeric"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="ativa"/>
+						</o2>
+						<o3>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="4"/>
+								<Indexed value="0"/>
+								<Name value="urlImgPropaganda"/>
+								<Nullable value="1"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="urlImgPropaganda"/>
+						</o3>
+						<o4>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="5"/>
+								<Indexed value="1"/>
+								<Name value="profissional_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="profissional_id"/>
+						</o4>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="profissional_id	Asc	BINARY"/>
+								<Name value="propagandas_propaganda_59dbcee3"/>
+								<Query value='CREATE INDEX "propagandas_propaganda_59dbcee3" ON "propagandas_propaganda" ("profissional_id")'/>
+								<Table value="propagandas_propaganda"/>
+								<Temporary value="0"/>
+								<Unique value="0"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="propagandas_propaganda_59dbcee3"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="5"/>
+						<Index_Count value="1"/>
+						<Link_Count value="1"/>
+						<Name value="propagandas_propaganda"/>
+						<Primary_Key value="id"/>
+						<Query value='CREATE TABLE "propagandas_propaganda" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "ordem" integer NOT NULL, "ativa" bool NOT NULL, "urlImgPropaganda" varchar(80) NULL, "profissional_id" integer NOT NULL REFERENCES "profissionais_profissional" ("pessoa_ptr_id"))'/>
+						<Record_Count value="1"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table"/>
+					<delete value="0"/>
+					<name value="propagandas_propaganda"/>
+				</o0>
+				<o1>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="pessoa_ptr_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="pessoa_ptr_id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Name value="codConselho"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="codConselho"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="3"/>
+								<Indexed value="1"/>
+								<Name value="area_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="area_id"/>
+						</o2>
+						<o3>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="4"/>
+								<Indexed value="0"/>
+								<Name value="urlImgProfissional"/>
+								<Nullable value="1"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="urlImgProfissional"/>
+						</o3>
+						<o4>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="5"/>
+								<Indexed value="0"/>
+								<Name value="cpf"/>
+								<Nullable value="1"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="cpf"/>
+						</o4>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="area_id	Asc	BINARY"/>
+								<Name value="profissionais_profissional_d266de13"/>
+								<Query value='CREATE INDEX "profissionais_profissional_d266de13" ON "profissionais_profissional" ("area_id")'/>
+								<Table value="profissionais_profissional"/>
+								<Temporary value="0"/>
+								<Unique value="0"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="profissionais_profissional_d266de13"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="5"/>
+						<Index_Count value="1"/>
+						<Link_Count value="5"/>
+						<Name value="profissionais_profissional"/>
+						<Primary_Key value="pessoa_ptr_id"/>
+						<Query value='CREATE TABLE "profissionais_profissional" ("pessoa_ptr_id" integer NOT NULL PRIMARY KEY REFERENCES "pessoas_pessoa" ("id"), "codConselho" varchar(10) NOT NULL, "area_id" integer NOT NULL REFERENCES "areas_area" ("id"), "urlImgProfissional" varchar(100) NULL, "cpf" bigint NULL)'/>
+						<Record_Count value="1"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table1"/>
+					<delete value="0"/>
+					<name value="profissionais_profissional"/>
+				</o1>
+				<o10>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="1"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Name value="uf"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="uf"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="3"/>
+								<Indexed value="0"/>
+								<Name value="nomeEstado"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="nomeEstado"/>
+						</o2>
+					</Fields>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="3"/>
+						<Index_Count value="0"/>
+						<Link_Count value="1"/>
+						<Name value="estabelecimentos_estado"/>
+						<Primary_Key value="id"/>
+						<Query value='CREATE TABLE "estabelecimentos_estado" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "uf" varchar(2) NOT NULL, "nomeEstado" varchar(80) NOT NULL)'/>
+						<Record_Count value="1"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table10"/>
+					<delete value="0"/>
+					<name value="estabelecimentos_estado"/>
+				</o10>
+				<o2>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="1"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="1"/>
+								<Name value="profissional_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="profissional_id"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="3"/>
+								<Indexed value="1"/>
+								<Name value="local_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="local_id"/>
+						</o2>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="profissional_id	Asc	BINARY"/>
+								<Name value="profissionais_profissional_local_59dbcee3"/>
+								<Query value='CREATE INDEX "profissionais_profissional_local_59dbcee3" ON "profissionais_profissional_local" ("profissional_id")'/>
+								<Table value="profissionais_profissional_local"/>
+								<Temporary value="0"/>
+								<Unique value="0"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="profissionais_profissional_local_59dbcee3"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="local_id	Asc	BINARY"/>
+								<Name value="profissionais_profissional_local_64a24e67"/>
+								<Query value='CREATE INDEX "profissionais_profissional_local_64a24e67" ON "profissionais_profissional_local" ("local_id")'/>
+								<Table value="profissionais_profissional_local"/>
+								<Temporary value="0"/>
+								<Unique value="0"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="profissionais_profissional_local_64a24e67"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="profissional_id	Asc	BINARY
+local_id	Asc	BINARY"/>
+								<Name value="profissionais_profissional_local_profissional_id_d7eb9b98_uniq"/>
+								<Query value='CREATE UNIQUE INDEX "profissionais_profissional_local_profissional_id_d7eb9b98_uniq" ON "profissionais_profissional_local" ("profissional_id", "local_id")'/>
+								<Table value="profissionais_profissional_local"/>
+								<Temporary value="0"/>
+								<Unique value="1"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="profissionais_profissional_local_profissional_id_d7eb9b98_uniq"/>
+						</o2>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="3"/>
+						<Index_Count value="3"/>
+						<Link_Count value="2"/>
+						<Name value="profissionais_profissional_local"/>
+						<Primary_Key value="id"/>
+						<Query value='CREATE TABLE "profissionais_profissional_local" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "profissional_id" integer NOT NULL REFERENCES "profissionais_profissional" ("pessoa_ptr_id"), "local_id" integer NOT NULL REFERENCES "estabelecimentos_local" ("id"))'/>
+						<Record_Count value="1"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table2"/>
+					<delete value="0"/>
+					<name value="profissionais_profissional_local"/>
+				</o2>
+				<o3>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="1"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Name value="cep"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="cep"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="3"/>
+								<Indexed value="0"/>
+								<Name value="logradouro"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="logradouro"/>
+						</o2>
+						<o3>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="4"/>
+								<Indexed value="0"/>
+								<Name value="numero"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="numero"/>
+						</o3>
+						<o4>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="5"/>
+								<Indexed value="0"/>
+								<Name value="bairro"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="bairro"/>
+						</o4>
+						<o5>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="6"/>
+								<Indexed value="0"/>
+								<Name value="telefone"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="telefone"/>
+						</o5>
+						<o6>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="7"/>
+								<Indexed value="1"/>
+								<Name value="cidade_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="cidade_id"/>
+						</o6>
+						<o7>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="8"/>
+								<Indexed value="0"/>
+								<Name value="nomeLocal"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="nomeLocal"/>
+						</o7>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="cidade_id	Asc	BINARY"/>
+								<Name value="estabelecimentos_local_f67415b5"/>
+								<Query value='CREATE INDEX "estabelecimentos_local_f67415b5" ON "estabelecimentos_local" ("cidade_id")'/>
+								<Table value="estabelecimentos_local"/>
+								<Temporary value="0"/>
+								<Unique value="0"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="estabelecimentos_local_f67415b5"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="8"/>
+						<Index_Count value="1"/>
+						<Link_Count value="2"/>
+						<Name value="estabelecimentos_local"/>
+						<Primary_Key value="id"/>
+						<Query value='CREATE TABLE "estabelecimentos_local" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "cep" varchar(12) NOT NULL, "logradouro" varchar(150) NOT NULL, "numero" varchar(10) NOT NULL, "bairro" varchar(80) NOT NULL, "telefone" varchar(20) NOT NULL, "cidade_id" integer NOT NULL REFERENCES "estabelecimentos_cidade" ("id"), "nomeLocal" varchar(150) NOT NULL)'/>
+						<Record_Count value="1"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table3"/>
+					<delete value="0"/>
+					<name value="estabelecimentos_local"/>
+				</o3>
+				<o4>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="1"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="1"/>
+								<Name value="profissional_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="profissional_id"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="3"/>
+								<Indexed value="1"/>
+								<Name value="especialidade_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="especialidade_id"/>
+						</o2>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="especialidade_id	Asc	BINARY"/>
+								<Name value="profissionais_profissional_especialidade_357052d7"/>
+								<Query value='CREATE INDEX "profissionais_profissional_especialidade_357052d7" ON "profissionais_profissional_especialidade" ("especialidade_id")'/>
+								<Table value="profissionais_profissional_especialidade"/>
+								<Temporary value="0"/>
+								<Unique value="0"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="profissionais_profissional_especialidade_357052d7"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="profissional_id	Asc	BINARY"/>
+								<Name value="profissionais_profissional_especialidade_59dbcee3"/>
+								<Query value='CREATE INDEX "profissionais_profissional_especialidade_59dbcee3" ON "profissionais_profissional_especialidade" ("profissional_id")'/>
+								<Table value="profissionais_profissional_especialidade"/>
+								<Temporary value="0"/>
+								<Unique value="0"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="profissionais_profissional_especialidade_59dbcee3"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="profissional_id	Asc	BINARY
+especialidade_id	Asc	BINARY"/>
+								<Name value="profissionais_profissional_especialidade_profissional_id_41b44832_uniq"/>
+								<Query value='CREATE UNIQUE INDEX "profissionais_profissional_especialidade_profissional_id_41b44832_uniq" ON "profissionais_profissional_especialidade" ("profissional_id", "especialidade_id")'/>
+								<Table value="profissionais_profissional_especialidade"/>
+								<Temporary value="0"/>
+								<Unique value="1"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="profissionais_profissional_especialidade_profissional_id_41b44832_uniq"/>
+						</o2>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="3"/>
+						<Index_Count value="3"/>
+						<Link_Count value="2"/>
+						<Name value="profissionais_profissional_especialidade"/>
+						<Primary_Key value="id"/>
+						<Query value='CREATE TABLE "profissionais_profissional_especialidade" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "profissional_id" integer NOT NULL REFERENCES "profissionais_profissional" ("pessoa_ptr_id"), "especialidade_id" integer NOT NULL REFERENCES "especialidades_especialidade" ("id"))'/>
+						<Record_Count value="1"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table4"/>
+					<delete value="0"/>
+					<name value="profissionais_profissional_especialidade"/>
+				</o4>
+				<o5>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="1"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Name value="nomeEspecialidade"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="nomeEspecialidade"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="3"/>
+								<Indexed value="1"/>
+								<Name value="area_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="area_id"/>
+						</o2>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="area_id	Asc	BINARY"/>
+								<Name value="especialidades_especialidade_d266de13"/>
+								<Query value='CREATE INDEX "especialidades_especialidade_d266de13" ON "especialidades_especialidade" ("area_id")'/>
+								<Table value="especialidades_especialidade"/>
+								<Temporary value="0"/>
+								<Unique value="0"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="especialidades_especialidade_d266de13"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="3"/>
+						<Index_Count value="1"/>
+						<Link_Count value="2"/>
+						<Name value="especialidades_especialidade"/>
+						<Primary_Key value="id"/>
+						<Query value='CREATE TABLE "especialidades_especialidade" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "nomeEspecialidade" varchar(80) NOT NULL, "area_id" integer NOT NULL REFERENCES "areas_area" ("id"))'/>
+						<Record_Count value="1"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table5"/>
+					<delete value="0"/>
+					<name value="especialidades_especialidade"/>
+				</o5>
+				<o6>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="1"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Name value="nomeArea"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="nomeArea"/>
+						</o1>
+					</Fields>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="2"/>
+						<Index_Count value="0"/>
+						<Link_Count value="2"/>
+						<Name value="areas_area"/>
+						<Primary_Key value="id"/>
+						<Query value='CREATE TABLE "areas_area" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "nomeArea" varchar(80) NOT NULL)'/>
+						<Record_Count value="1"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table6"/>
+					<delete value="0"/>
+					<name value="areas_area"/>
+				</o6>
+				<o7>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="1"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Name value="nome"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="nome"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="3"/>
+								<Indexed value="0"/>
+								<Name value="sobrenome"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="sobrenome"/>
+						</o2>
+						<o3>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="4"/>
+								<Indexed value="0"/>
+								<Name value="cpf"/>
+								<Nullable value="1"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="cpf"/>
+						</o3>
+					</Fields>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="4"/>
+						<Index_Count value="0"/>
+						<Link_Count value="2"/>
+						<Name value="pessoas_pessoa"/>
+						<Primary_Key value="id"/>
+						<Query value='CREATE TABLE "pessoas_pessoa" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "nome" varchar(80) NOT NULL, "sobrenome" varchar(80) NOT NULL, "cpf" bigint NULL)'/>
+						<Record_Count value="1"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table7"/>
+					<delete value="0"/>
+					<name value="pessoas_pessoa"/>
+				</o7>
+				<o8>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="pessoa_ptr_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="pessoa_ptr_id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="0"/>
+								<Name value="email"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="email"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="3"/>
+								<Indexed value="0"/>
+								<Name value="senha"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="senha"/>
+						</o2>
+					</Fields>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="3"/>
+						<Index_Count value="0"/>
+						<Link_Count value="1"/>
+						<Name value="usuarios_usuario"/>
+						<Primary_Key value="pessoa_ptr_id"/>
+						<Query value='CREATE TABLE "usuarios_usuario" ("pessoa_ptr_id" integer NOT NULL PRIMARY KEY REFERENCES "pessoas_pessoa" ("id"), "email" varchar(80) NOT NULL, "senha" varchar(80) NOT NULL)'/>
+						<Record_Count value="0"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table8"/>
+					<delete value="0"/>
+					<name value="usuarios_usuario"/>
+				</o8>
+				<o9>
+					<Changes value=""/>
+					<Fields>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="1"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="1"/>
+								<Indexed value="0"/>
+								<Name value="id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="id"/>
+						</o0>
+						<o1>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="2"/>
+								<Indexed value="1"/>
+								<Name value="estado_id"/>
+								<Nullable value="0"/>
+								<Type value="Integer"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="estado_id"/>
+						</o1>
+						<o2>
+							<Changes value=""/>
+							<Properties>
+								<Autoincrement value="0"/>
+								<Collation value="BINARY"/>
+								<Comment value=""/>
+								<Default_Value value=""/>
+								<Field_Position value="3"/>
+								<Indexed value="0"/>
+								<Name value="nomeCidade"/>
+								<Nullable value="0"/>
+								<Type value="Text"/>
+								<Unique value="0"/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="nomeCidade"/>
+						</o2>
+					</Fields>
+					<Indexes>
+						<o0>
+							<Changes value=""/>
+							<Properties>
+								<Comment value=""/>
+								<Fields value="estado_id	Asc	BINARY"/>
+								<Name value="estabelecimentos_cidade_2c189993"/>
+								<Query value='CREATE INDEX "estabelecimentos_cidade_2c189993" ON "estabelecimentos_cidade" ("estado_id")'/>
+								<Table value="estabelecimentos_cidade"/>
+								<Temporary value="0"/>
+								<Unique value="0"/>
+								<Where value=""/>
+							</Properties>
+							<control value=""/>
+							<delete value="0"/>
+							<name value="estabelecimentos_cidade_2c189993"/>
+						</o0>
+					</Indexes>
+					<Properties>
+						<Check_Count value="0"/>
+						<Comment value=""/>
+						<Field_Count value="3"/>
+						<Index_Count value="1"/>
+						<Link_Count value="2"/>
+						<Name value="estabelecimentos_cidade"/>
+						<Primary_Key value="id"/>
+						<Query value='CREATE TABLE "estabelecimentos_cidade" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "estado_id" integer NOT NULL REFERENCES "estabelecimentos_estado" ("id"), "nomeCidade" varchar(80) NOT NULL)'/>
+						<Record_Count value="1"/>
+						<Temporary value="0"/>
+						<Trigger_Count value="0"/>
+						<Unique_Count value="0"/>
+						<Without_RowID value="0"/>
+					</Properties>
+					<control value="Table9"/>
+					<delete value="0"/>
+					<name value="estabelecimentos_cidade"/>
+				</o9>
+			</Tables>
+		</db>
+	</Model>
+	<Scene>
+		<HeightPX value="2048"/>
+		<WidthPX value="2048"/>
+	</Scene>
+	<version value="60103"/>
+</properties>
+
