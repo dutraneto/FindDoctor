@@ -1,0 +1,6 @@
+
+*.pyc
+staticfiles
+casoDeuso
+db.sqlite3
+.DS_Store
