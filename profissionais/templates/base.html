@@ -14,40 +14,40 @@
 			<div class="header">
 				<div>
 					<img src="{% static 'img/logo.jpg' %}" alt="logo">
-					
-					<ul class="nav nav-pills pull-right"> 
-						
+
+					<ul class="nav nav-pills pull-right">
+
 					</ul>
-					
+
 				</div>
-				
+
 				<div>
 					<ul class="nav nav-pills pull-left">
 
 						<li><a href="{% url 'index' %}">Pagina Inicial</a></li>
 						<li><a href="/admin">Area Administrativa</a></li>
-						
-						
+
+
 					</ul>
 				</div>
-				
+
 
 				</br>
-				</br>			
+				</br>
 			</div>
 
-			
-			</br>		
+
+			</br>
 			<div class="row content">
 				{% block body %}
 				{% endblock %}
 			</div>
 
 			<div>
-				<p align="CENTER">©2016 FindDoctor - Todos os Direitos Reservados</p>
+				<p align="CENTER">©2016 {{request.site.name}} - Todos os Direitos Reservados</p>
 			</div>
 		</div>
 
-			
+
 	</body>
 </html>
