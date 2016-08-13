@@ -1,0 +1,23 @@
+{% extends 'index.html' %}
+
+{% block main %}
+	<center><h1>Resultado</h1></center>
+	<h3><strong><font color="#FF0000" face="verdana" size="3">{{object.nome}}</font></strong></h3>
+	
+	Sobrenome - <i> <strong>{{object.sobrenome}}</strong></i>
+	<br/>
+	Especialidade - <i> <strong>{{object.especialidade}}</strong></i>
+	<br/>
+	{%if object.cpf %}
+		CPF - <i> <strong>{{object.cpf}}</strong></i>
+		<br/>
+	{% endif %}
+	Área - <i> <strong>{{object.area}}</strong></i>
+	<br/>
+	Local de Atendimento - <i> <strong>{{object.local}}</strong></i>
+	<br/>
+	Código do Conselho - <i> <strong>{{object.codConselho}}</strong></i>
+	<br/>
+	
+
+{% endblock %}

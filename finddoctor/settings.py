@@ -66,7 +66,7 @@ ROOT_URLCONF = 'finddoctor.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -160,6 +160,11 @@ STATIC_URL = '/static/'
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = [
     os.path.join(PROJECT_ROOT, 'static'),
+    ('css', os.path.join(STATIC_ROOT , 'css')),
+    ('img', os.path.join(STATIC_ROOT , 'img')),
+    ('less', os.path.join(STATIC_ROOT , 'less')),
+    ('js', os.path.join(STATIC_ROOT , 'js')),
+    ('vendor', os.path.join(STATIC_ROOT , 'vendor')),
 ]
 
 # Simplified static file serving.
