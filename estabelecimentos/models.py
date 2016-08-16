@@ -31,6 +31,6 @@ class Local(models.Model):
 	def __str__(self):
 		return self.nomeLocal
 
-	# class Meta:
-	# 	verbose_name = 'Local'
-    #     verbose_name_plural = 'Locais'
+	class Meta:
+		verbose_name = 'Local'
+    	verbose_name_plural = 'Locais'
