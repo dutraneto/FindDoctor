@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
 
 
 class Estado(models.Model):
@@ -33,4 +33,4 @@ class Local(models.Model):
 
 	class Meta:
 		verbose_name = 'Local'
-    	verbose_name_plural = 'Locais'
+		verbose_name_plural = 'Locais'
