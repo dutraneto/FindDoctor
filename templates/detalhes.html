@@ -1,0 +1,34 @@
+
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block main %}
+
+<div class="col-lg-12">
+				<strong>
+				<font color="#000000" face="verdana">
+					{% if objects.urlImgProfissional %}
+					<img src="{{ objects.urlImgProfissional.url }}" width="100" height="100">
+					{% else %}
+						<img src="{% static 'img/photo.jpg' %}"> 					 
+					{% endif %}
+					<h2>{{objects}}</h2></br>
+					<label>Cod Conselho: </label><p>{{objects.codConselho}}</p></br>
+					<label>Especialidade(s): </label>
+					{% for esp in objects.especialidade.all %}
+						<p>{{esp}}</p>
+					{% endfor %}
+
+					</br><label>Atendimento:</label></br>
+					{% for aten in objects.local.all %}
+
+	<h4>{{aten.nomeLocal}}</h4>				
+	{{aten.logradouro}}, {{aten.numero}} - {{aten.bairro}} - {{aten.cidade}} - {{aten.cidade.estado.uf}} </br>
+	Contatos: {{aten.telefone}}	</br>
+					{% endfor %}
+	
+	</font>
+	</strong>
+</div>
+{% endblock %}
+
+

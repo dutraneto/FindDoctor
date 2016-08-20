@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block main %}
+<div class="col-lg-12">
+
+	<img class="img-responsive" src="{% static "img/logo2.jpg" %}" alt="" >
+	</br>
+	</br>
+	</br>
+	<font color="#0F000F" face="verdana" size="3">
+				<div >
+				<form class="form-inline" action="{% url 'buscar-por-cidade' %}" method="post">
+				{% csrf_token %}
+						<div>
+						{# <label>Cidade:</label> #}
+						<select  id="id_categoria_id" name="busca" class="form-control">
+							<option selected value="Selecione">Pesquise Profissionais por Cidade</option>
+							{% for cid in cidade %}
+							<option  value="{{ cid }}">{{cid}}</option>
+						{% endfor %}
+
+						</select>
+					<button  class="btn btn-primary" type="submit">Buscar</button>
+					</div>
+				</div>
+	</br>
+			</br>
+			</br>
+			<h3>Profissionais de saúde ao seu alcance.</h3>
+			<p>Agora você pode pesquisar por profissionais de saúde de diversas áreas.
+				Pesquise por especialidade, por profissional e por cidade.
+					Sua saúde em primeiro lugar!!.</p>
+		</form>
+
+</div>
+{% endblock %}

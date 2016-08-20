@@ -66,6 +66,7 @@ hr.star-primary:after {
 }
 .img-centered {
   margin: 0 auto;
+
 }
 header {
   text-align: center;
@@ -75,6 +76,7 @@ header {
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
+  color: rgb(250,250,250);
 }
 header img {
   display: block;
@@ -86,6 +88,7 @@ header .intro-text .name {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
+  
 }
 header .intro-text .skills {
   font-size: 1.25em;
