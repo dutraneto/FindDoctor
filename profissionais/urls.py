@@ -6,7 +6,7 @@ from profissionais.views import  BuscarProfissionalView, BuscarEspecilidadeView,
 
 
 urlpatterns = [
-    
+
 	url(r'^$', views.index, name= 'index' ),
 	url(r'^especialidade$', views.especialidade, name= 'especialidade' ),
 	url(r'^cidade$', views.cidade, name= 'cidade' ),
@@ -16,6 +16,6 @@ urlpatterns = [
 	url(r'^profissional/(?P<id>\d+)/detalhe$', views.detalhe , name= 'detalhe'),
 	url(r'^resultado-busca-especialidade$', BuscarEspecilidadeView.as_view()  , name= 'buscar-por-especialiade'),
 	url(r'^resultado-busca-cidade$', BuscarCidadeView.as_view()  , name= 'buscar-por-cidade'),
-	url(r'^resultado-busca-cidade$', BuscarCidadeView.as_view()  , name= 'buscar-por-cidade'),
-	
+	# url(r'^resultado-busca-cidade$', BuscarCidadeView.as_view()  , name= 'buscar-por-cidade'),
+
 ]
