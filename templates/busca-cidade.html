@@ -3,17 +3,18 @@
 {% block main %}
 
 <div class="col-lg-12">
-
+{% for cid in cidade %}
 <div  class="panel panel-default">
 		<div class="panel-heading">
-			<strong>Médicos Encontrados
+
+			<strong>Médicos Encontrados em {{cid}}
 
 			</strong>
 		</div>
 
 		{% if profissionais %}
 		<ul class="list-group">
-			{% for prof in profissionais %}
+			{% for prof in profissionais.object_list %}
 
 				<li class="list-group-item">
 				<a   href="{% url 'detalhe' prof.id %}">
@@ -42,11 +43,34 @@
 		</ul>
 
 		{% else %}
-			<font color="#000000"><p> Nenhum Médico Encontrado</p></font>
+
+		<font color="#000000"><p> Nenhum Médico Encontrado</p></font>
 		{% endif %}
 
 </div>
+<div class="pagination">
+    <span class="step-links">
+
+        {% if profissionais.has_previous %}
+
+           <a href="?cidade={{cid.nomeCidade}}&page={{ profissionais.previous_page_number }}">Anterior   </a>
 
 
+        {% endif %}
+        <font color="#000000" face="verdana">
+        <span class="current">
+          &nbsp;  Página {{ profissionais.number }} de {{ profissionais.paginator.num_pages }}. &nbsp;
+        </span>
+           </font>
+        {% if profissionais.has_next %}
+
+           		<a  href="?cidade={{cid.nomeCidade}}&page={{ profissionais.next_page_number }}">    Próxima</a>
+
+        {% endif %}
+
+    </span>
+</div>
+
+ {% endfor %}
 </div>
 {% endblock %}

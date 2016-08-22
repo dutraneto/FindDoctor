@@ -4,6 +4,7 @@ from django.contrib import admin
 from profissionais.views import  BuscarProfissionalView, BuscarEspecilidadeView, BuscarCidadeView
 
 
+
 urlpatterns = [
     
 	url(r'^$', views.index, name= 'index' ),
@@ -15,5 +16,6 @@ urlpatterns = [
 	url(r'^profissional/(?P<id>\d+)/detalhe$', views.detalhe , name= 'detalhe'),
 	url(r'^resultado-busca-especialidade$', BuscarEspecilidadeView.as_view()  , name= 'buscar-por-especialiade'),
 	url(r'^resultado-busca-cidade$', BuscarCidadeView.as_view()  , name= 'buscar-por-cidade'),
-
+	url(r'^resultado-busca-cidade$', BuscarCidadeView.as_view()  , name= 'buscar-por-cidade'),
+	
 ]

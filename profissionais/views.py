@@ -4,6 +4,7 @@ from profissionais.models import  Profissional
 from profissionais.forms import  BuscarProfissionalForm, BuscarCidadeProfForm
 from django.views.generic.base import View
 from estabelecimentos.models import Cidade, Local
+from django.core.paginator import Paginator, InvalidPage, EmptyPage
 # Create your views here.
 
 def index(request):
@@ -39,8 +40,6 @@ def detalhe(request, id):
 
 class BuscarProfissionalView(View):
 
-
-
 	def post(self, request):
 		form = BuscarProfissionalForm(request.POST or None)
 		if form.is_valid():
@@ -54,6 +53,22 @@ class BuscarProfissionalView(View):
 
 class BuscarEspecilidadeView(View):
 
+	def get(self, request):
+		q_especialidade = request.GET.get('especialidade', '')
+		if q_especialidade:
+			esp = Especialidade.objects.filter(nomeEspecialidade__icontains= q_especialidade)
+			prof = Profissional.objects.filter(especialidade= esp)
+			paginator = Paginator(prof, 10)
+
+			try:
+				page = int(request.GET.get('page', '1'))
+			except ValueError:
+				page = 1
+			try:
+				p = paginator.page(page)
+			except (EmptyPage, InvalidPage):
+				p = paginator.page(paginator.num_pages)
+			return render(request, 'busca-especialidade.html', {'profissionais': p, 'especialidade': esp})
 
 	def post(self, request):
 		form = BuscarProfissionalForm(request.POST)
@@ -61,12 +76,41 @@ class BuscarEspecilidadeView(View):
 			dados_form = form.data
 			esp = Especialidade.objects.filter(nomeEspecialidade__icontains= dados_form['busca'])
 			prof = Profissional.objects.filter(especialidade= esp)
+			paginator = Paginator(prof, 10)
 
-			return render(request, 'busca.html', {'profissionais': prof})
+			try:
+				page = int(request.GET.get('page', '1'))
+			except ValueError:
+				page = 1
+			try:
+				p = paginator.page(page)
+			except (EmptyPage, InvalidPage):
+				p = paginator.page(paginator.num_pages)
+			return render(request, 'busca-especialidade.html', {'profissionais': p, 'especialidade': esp})
+
+			#return render(request, 'busca.html', {'profissionais': prof})
 
 class BuscarCidadeView(View):
 
 
+	def get(self, request):
+		q_cidade = request.GET.get('cidade','')
+		if q_cidade:
+			cid = Cidade.objects.filter(nomeCidade__icontains= q_cidade)
+			local = Local.objects.filter(cidade=cid);
+			prof = Profissional.objects.filter(local=local)
+			paginator = Paginator(prof, 10)
+			try:
+				page = int(request.GET.get('page', '1'))
+			except ValueError:
+				page = 1
+			try:
+				p = paginator.page(page)
+			except (EmptyPage, InvalidPage):
+				p = paginator.page(paginator.num_pages)
+			return render(request, 'busca-cidade.html', {'profissionais': p, 'cidade': cid})
+
+			#return render(request, 'teste.html', {'loc': local} )
 	def post(self, request):
 		form = BuscarCidadeProfForm(request.POST)
 		if form.is_valid():
@@ -74,5 +118,14 @@ class BuscarCidadeView(View):
 			cid = Cidade.objects.filter(nomeCidade__icontains= dados_form['busca'])
 			loc = Local.objects.filter(cidade=cid);
 			prof = Profissional.objects.filter(local=loc)
+			paginator = Paginator(prof, 10)
 
-			return render(request, 'busca.html', {'profissionais': prof})
+			try:
+				page = int(request.GET.get('page', '1'))
+			except ValueError:
+				page = 1
+			try:
+				p = paginator.page(page)
+			except (EmptyPage, InvalidPage):
+				p = paginator.page(paginator.num_pages)
+			return render(request, 'busca-cidade.html', {'profissionais': p, 'cidade': cid})
