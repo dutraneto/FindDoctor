@@ -11,7 +11,7 @@ class ProfissionalModelAdmin(admin.ModelAdmin):
 	# list_editable = ["title"]
 	list_filter = ["nome", "sobrenome", "especialidade", "area" ]
 
-	search_fields__iconteins= ["nome", "sobrenome", "especialidade", "area",  "codConselho"]
+	search_fields__icontains= ["nome", "sobrenome", "especialidade", "area",  "codConselho"]
 
 	filter_horizontal = ["especialidade", "local"]
 
