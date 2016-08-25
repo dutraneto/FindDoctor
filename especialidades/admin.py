@@ -3,7 +3,7 @@ from especialidades.models import Especialidade
 
 class EspecialidadeModelAdmin(admin.ModelAdmin):
 
-    save_on_top = True
+    
     list_display = ["nomeEspecialidade"]
     list_filter = ["nomeEspecialidade"]
 
