@@ -48,6 +48,28 @@
 		{% endif %}
 		
 </div>	
+<div class="pagination">
+    <span class="step-links">
+    
+        {% if profissionais.has_previous %}
+        	
+           <a href="?especialidade={{esp.id}}&page={{ profissionais.previous_page_number }}">Anterior   </a>
+            
+           
+        {% endif %}
+        <font color="#000000" face="verdana">
+        <span class="current">
+          &nbsp;  Página {{ profissionais.number }} de {{ profissionais.paginator.num_pages }}. &nbsp;
+        </span>
+           </font>
+        {% if profissionais.has_next %}
+       		
+           		<a  href="?especialidade={{esp.id}}&page={{ profissionais.next_page_number }}">    Próxima</a>
+        
+        {% endif %}
+ 
+    </span>
+</div>
 		
 	
 </div>

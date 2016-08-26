@@ -7,31 +7,26 @@
 <div  class="panel panel-default">		
 		<div class="panel-heading">
 
-			<strong>Médicos Encontrados em {{cid}}
+			<strong>Locais de atendimento na cidade de {{cid}}
 			
 			</strong>
 		</div>		
 
-		{% if profissionais %}
+		{% if locais %}
 		<ul class="list-group">
-			{% for prof in profissionais.object_list %} 
+			{% for loc in locais %} 
+
 
 				<li class="list-group-item"> 
-				<a   href="{% url 'detalhe' prof.id %}">
+				<a   href="{% url 'local-prof' loc.id %}">
 				<div align="center">
 					<strong>
 					
-					{% if prof.urlImgProfissional %}
-						<img src="{{ prof.urlImgProfissional.url }}" width="100" height="100">
-					{% else %}
-						<img src="{% static 'img/photo.jpg' %}">					 
-					{% endif %}
+					
 					<font color="#0000FF" face="verdana">
-					<h4>{{prof}}</h4>
+					<h4>{{loc}}</h4>
 					</font>
-					<font color="#000000" face="verdana">
-					<label>Cod Conselho:</label> {{prof.codConselho}}
-					</font>
+					
 					</strong>
 					
 				</div>
@@ -52,20 +47,20 @@
 <div class="pagination">
     <span class="step-links">
     
-        {% if profissionais.has_previous %}
+        {% if locais.has_previous %}
         	
-           <a href="?cidade={{cid.id}}&page={{ profissionais.previous_page_number }}">Anterior   </a>
+           <a href="?cidade={{cid.id}}&page={{ locais.previous_page_number }}">Anterior   </a>
             
            
         {% endif %}
         <font color="#000000" face="verdana">
         <span class="current">
-          &nbsp;  Página {{ profissionais.number }} de {{ profissionais.paginator.num_pages }}. &nbsp;
+          &nbsp;  Página {{ locais.number }} de {{ locais.paginator.num_pages }}. &nbsp;
         </span>
            </font>
-        {% if profissionais.has_next %}
+        {% if locais.has_next %}
        		
-           		<a  href="?cidade={{cid.id}}&page={{ profissionais.next_page_number }}">    Próxima</a>
+           		<a  href="?cidade={{cid.id}}&page={{ locais.next_page_number }}">    Próxima</a>
         
         {% endif %}
  

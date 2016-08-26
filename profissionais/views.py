@@ -80,7 +80,7 @@ class BuscarEspecilidadeView(View):
 
 			#return render(request, 'busca.html', {'profissionais': prof})
 
-class BuscarCidadeView(View):
+class BuscarLocaisView(View):
 
 
 	def get(self, request):
@@ -88,8 +88,8 @@ class BuscarCidadeView(View):
 		if q_cidade:
 			cid = Cidade.objects.filter(id = q_cidade)
 			local = Local.objects.filter(cidade=cid);
-			prof = Profissional.objects.filter(local=local)
-			paginator = Paginator(prof, 10)
+			#prof = Profissional.objects.filter(local=local)
+			paginator = Paginator(local, 10)
 			try:
 				page = int(request.GET.get('page', '1')) 
 			except ValueError:
@@ -98,7 +98,7 @@ class BuscarCidadeView(View):
 				p = paginator.page(page) 
 			except (EmptyPage, InvalidPage):
 				p = paginator.page(paginator.num_pages)
-			return render(request, 'busca-cidade.html', {'profissionais': p, 'cidade': cid})
+			return render(request, 'busca-cidade.html', {'locais': p, 'cidade': cid})
 			
 			#return render(request, 'teste.html', {'loc': local} )
 	def post(self, request):
@@ -107,10 +107,12 @@ class BuscarCidadeView(View):
 			dados_form = form.data
 			cid = Cidade.objects.filter(id = dados_form['busca'])
 			loc = Local.objects.filter(cidade=cid);
-			prof = Profissional.objects.filter(local=loc)
+			
+				
+			#prof = Profissional.objects.filter(local=loc)
 			
 
-			paginator = Paginator(prof, 10)
+			paginator = Paginator(loc, 10)
 
 			try:
 				page = int(request.GET.get('page', '1')) 
@@ -120,7 +122,25 @@ class BuscarCidadeView(View):
 				p = paginator.page(page) 
 			except (EmptyPage, InvalidPage):
 				p = paginator.page(paginator.num_pages)
-			return render(request, 'busca-cidade.html', {'profissionais': p, 'cidade': cid})
+			return render(request, 'busca-cidade.html', {'locais': p, 'cidade': cid})
+
+def prof_locais(request, id):
+	loc = Local.objects.get(id=id);
+	prof = Profissional.objects.filter(local=loc)
+			
+	paginator = Paginator(prof, 10)
+
+	try:
+		page = int(request.GET.get('page', '1')) 
+	except ValueError:
+		page = 1
+	try: 
+		p = paginator.page(page) 
+	except (EmptyPage, InvalidPage):
+		p = paginator.page(paginator.num_pages)
+	return render(request, 'busca-locais.html', {'profissionais': p, 'local': loc})
+			
+	
 			
 
 				
