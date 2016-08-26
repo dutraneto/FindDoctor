@@ -21,7 +21,7 @@ class BuscarProfissionalForm(forms.Form):
 
 class BuscarCidadeProfForm(forms.Form):
 
-	busca = forms.CharField(required=True)
+	busca = forms.IntegerField(required=True)
 	
 	
 	

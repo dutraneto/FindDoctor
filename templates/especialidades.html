@@ -14,7 +14,7 @@
 						<div>
 
 						<select  id="id_categoria_id" name="busca" class="form-control">
-							<option selected value="Selecione">Pesquise Profissionais por Especialidade</option>
+							<option selected value="0">Pesquise Profissionais por Especialidade</option>
 							{% for esp in especialidade %}
 							<option  value="{{ esp.id }}">{{esp}}</option>
 						{% endfor %}

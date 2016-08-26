@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block main %}
+<div class="col-lg-12">
+
+	<form class="form-inline" role="from" action="/login/" method="post">
+		{% csrf_token %}
+		<img class="img-responsive" src="{% static "img/logo2.jpg" %}" width="200" height="40" >
+	</br>
+		 <input id="id_username" name="username" type="text" class="form-control" placeholder="Usuário" required> </input>
+		</br>
+		
+		
+		 <input id="id_password" name="password" type="password" class="form-control" placeholder="Senha" required>	</input>
+	
+		</br>
+		</br>
+		<button class="btn btn-primary" type="submit">Login</button>
+		<hr/>
+
+		<input type="hidden" name="next"	value="{{ next }}"></input>
+		{% if form.errors %}
+			<div class="alert alert-danger">
+				<button type="button" class="close">&times;</button>
+				Usuário ou senha não confere
+				{{form.non_field_erros}}
+			</div>
+		{% endif%}
+		
+
+		</input>
+	</form>
+{% endblock %}

@@ -14,7 +14,7 @@
 						<div>
 						{# <label>Cidade:</label> #}
 						<select  id="id_categoria_id" name="busca" class="form-control">
-							<option selected value="Selecione">Pesquise Profissionais por Cidade</option>
+							<option selected value="0">Pesquise Profissionais por Cidade</option>
 							{% for cid in cidade %}
 							<option  value="{{ cid.id }}">{{cid.nomeCidade}}</option>
 						{% endfor %}
