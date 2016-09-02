@@ -5,7 +5,7 @@ from profissionais.forms import  BuscarProfissionalForm, BuscarCidadeProfForm
 from django.views.generic.base import View
 from estabelecimentos.models import Cidade, Local
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, Group
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 
@@ -60,14 +60,14 @@ class BuscarEspecilidadeView(View):
 			paginator = Paginator(prof, 10)
 
 			try:
-				page = int(request.GET.get('page', '1')) 
+				page = int(request.GET.get('page', '1'))
 			except ValueError:
 				page = 1
-			try: 
-				p = paginator.page(page) 
+			try:
+				p = paginator.page(page)
 			except (EmptyPage, InvalidPage):
 				p = paginator.page(paginator.num_pages)
-			return render(request, 'busca-especialidade.html', {'profissionais': p, 'especialidade': esp})	
+			return render(request, 'busca-especialidade.html', {'profissionais': p, 'especialidade': esp})
 
 	def post(self, request):
 		form = BuscarProfissionalForm(request.POST)
@@ -79,11 +79,11 @@ class BuscarEspecilidadeView(View):
 				paginator = Paginator(prof, 10)
 
 				try:
-					page = int(request.GET.get('page', '1')) 
+					page = int(request.GET.get('page', '1'))
 				except ValueError:
 					page = 1
-				try: 
-					p = paginator.page(page) 
+				try:
+					p = paginator.page(page)
 				except (EmptyPage, InvalidPage):
 					p = paginator.page(paginator.num_pages)
 				return render(request, 'busca-especialidade.html', {'profissionais': p, 'especialidade': esp})
@@ -103,15 +103,15 @@ class BuscarLocaisView(View):
 			#prof = Profissional.objects.filter(local=local)
 			paginator = Paginator(local, 10)
 			try:
-				page = int(request.GET.get('page', '1')) 
+				page = int(request.GET.get('page', '1'))
 			except ValueError:
 				page = 1
-			try: 
-				p = paginator.page(page) 
+			try:
+				p = paginator.page(page)
 			except (EmptyPage, InvalidPage):
 				p = paginator.page(paginator.num_pages)
 			return render(request, 'busca-cidade.html', {'locais': p, 'cidade': cid})
-			
+
 			#return render(request, 'teste.html', {'loc': local} )
 	def post(self, request):
 		form = BuscarCidadeProfForm(request.POST)
@@ -120,19 +120,19 @@ class BuscarLocaisView(View):
 			if int(dados_form['busca']) > 0:
 				cid = Cidade.objects.filter(id = dados_form['busca'])
 				loc = Local.objects.filter(cidade=cid);
-				
-					
+
+
 				#prof = Profissional.objects.filter(local=loc)
-				
+
 
 				paginator = Paginator(loc, 10)
 
 				try:
-					page = int(request.GET.get('page', '1')) 
+					page = int(request.GET.get('page', '1'))
 				except ValueError:
 					page = 1
-				try: 
-					p = paginator.page(page) 
+				try:
+					p = paginator.page(page)
 				except (EmptyPage, InvalidPage):
 					p = paginator.page(paginator.num_pages)
 				return render(request, 'busca-cidade.html', {'locais': p, 'cidade': cid})
@@ -142,18 +142,68 @@ class BuscarLocaisView(View):
 def prof_locais(request, id):
 	loc = Local.objects.get(id=id);
 	prof = Profissional.objects.filter(local=loc)
-			
+
 	paginator = Paginator(prof, 10)
 
 	try:
-		page = int(request.GET.get('page', '1')) 
+		page = int(request.GET.get('page', '1'))
 	except ValueError:
 		page = 1
-	try: 
-		p = paginator.page(page) 
+	try:
+		p = paginator.page(page)
 	except (EmptyPage, InvalidPage):
 		p = paginator.page(paginator.num_pages)
 	return render(request, 'busca-locais.html', {'profissionais': p, 'local': loc})
 
-				
-		
+
+
+from rest_framework import viewsets
+from .serializers import *
+
+
+class UserViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows users to be viewed or edited.
+    """
+    queryset = User.objects.all().order_by('-date_joined')
+    serializer_class = UserSerializer
+
+
+class GroupViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows groups to be viewed or edited.
+    """
+    queryset = Group.objects.all()
+    serializer_class = GroupSerializer
+
+
+class ProfissionalViewSet(viewsets.ModelViewSet):
+	"""
+	API endpoint that allows groups to be viewed or edited.
+	"""
+	queryset = Profissional.objects.all().order_by('nome')
+	serializer_class = ProfissionalSerializer
+
+
+class EspecialidadeViewSet(viewsets.ModelViewSet):
+	"""
+	API endpoint that allows groups to be viewed or edited.
+	"""
+	queryset = Especialidade.objects.all().order_by('id')
+	serializer_class = EspecialidadeSerializer
+
+
+class LocalViewSet(viewsets.ModelViewSet):
+	"""
+	API endpoint that allows groups to be viewed or edited.
+	"""
+	queryset = Local.objects.all().order_by('id')
+	serializer_class = LocalSerializer
+
+
+class CidadeViewSet(viewsets.ModelViewSet):
+	"""
+	API endpoint that allows groups to be viewed or edited.
+	"""
+	queryset = Cidade.objects.all().order_by('nomeCidade')
+	serializer_class = CidadeSerializer
